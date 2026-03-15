@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		A45F955F2F66D8280094CF1B /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = A45F955E2F66D81D0094CF1B /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		A45F953E2F66BD530094CF1B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		A45F95302F66BD510094CF1B /* demo_vuln_lab4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = demo_vuln_lab4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A45F953D2F66BD530094CF1B /* demo_vuln_lab4Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = demo_vuln_lab4Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A45F95472F66BD530094CF1B /* demo_vuln_lab4UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = demo_vuln_lab4UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A45F955E2F66D81D0094CF1B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +80,7 @@
 		A45F95272F66BD510094CF1B = {
 			isa = PBXGroup;
 			children = (
+				A45F955E2F66D81D0094CF1B /* README.md */,
 				A45F95322F66BD510094CF1B /* demo_vuln_lab4 */,
 				A45F95402F66BD530094CF1B /* demo_vuln_lab4Tests */,
 				A45F954A2F66BD530094CF1B /* demo_vuln_lab4UITests */,
@@ -236,6 +242,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A45F955F2F66D8280094CF1B /* README.md in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
